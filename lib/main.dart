@@ -1,4 +1,4 @@
-import 'package:fitnes_app/UI/Started/GetStarted.dart';
+import 'package:fitnes_app/UI/Started/WelcomeScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
