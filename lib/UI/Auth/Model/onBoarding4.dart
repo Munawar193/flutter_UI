@@ -1,4 +1,5 @@
 import 'package:fitnes_app/Constant.dart';
+import 'package:fitnes_app/UI/Auth/Register.dart';
 import 'package:flutter/material.dart';
 
 class Onboarding4 extends StatelessWidget {
@@ -74,12 +75,12 @@ class Onboarding4 extends StatelessWidget {
               ),
             ),
             onTap: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: (context) => Onboarding3(),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => RegisterPage(),
+                ),
+              );
             },
           )
         ],

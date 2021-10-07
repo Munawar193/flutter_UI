@@ -9,7 +9,8 @@ const WhiteColor = Color(0XFFFFFFFF);
 const greyColor1 = Color(0XFF7B6F72);
 const greyColor2 = Color(0XFFADA4A5);
 const greyColor3 = Color(0XFFDDDADA);
-const BorderColor = Color(0XFFF7F8F8);
+const BorderColor = Color(0XFFEDEDED);
+const IconColor = Color(0XFFADA4A5);
 
 const TextStyle Costumetitle = TextStyle(
   fontFamily: 'Poppins',
@@ -49,7 +50,7 @@ const TextStyle title_H3 = TextStyle(
 const TextStyle title_H4 = TextStyle(
   fontFamily: 'Poppins',
   fontSize: 16,
-  fontWeight: FontWeight.w600,
+  fontWeight: FontWeight.w400,
   color: BlackColor,
 );
 
@@ -64,7 +65,7 @@ const TextStyle SmallText = TextStyle(
   fontFamily: 'Poppins',
   fontSize: 12,
   fontWeight: FontWeight.w400,
-  color: BlackColor,
+  color: greyColor1,
 );
 const TextStyle titleText = TextStyle(
   fontFamily: 'Poppins',
@@ -79,4 +80,16 @@ const TextStyle BtnStart = TextStyle(
   fontSize: 16,
   fontWeight: FontWeight.w700,
   color: BrandColors2,
+);
+const TextStyle StyleRegister = TextStyle(
+  fontFamily: 'Poppins',
+  fontSize: 16,
+  fontWeight: FontWeight.w700,
+  color: WhiteColor,
+);
+const TextStyle titleField = TextStyle(
+  fontFamily: 'Poppins',
+  fontSize: 14,
+  fontWeight: FontWeight.w400,
+  color: IconColor,
 );

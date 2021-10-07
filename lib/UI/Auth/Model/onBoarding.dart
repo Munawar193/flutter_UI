@@ -60,7 +60,7 @@ class Onboarding extends StatelessWidget {
                     ),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
-                        begin: Alignment.topLeft,
+                        begin: Alignment.topRight,
                         end: Alignment(0.0, 0.8),
                         colors: <Color>[
                           BrandColors1,
