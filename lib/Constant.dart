@@ -11,6 +11,7 @@ const greyColor2 = Color(0XFFADA4A5);
 const greyColor3 = Color(0XFFDDDADA);
 const BorderColor = Color(0XFFEDEDED);
 const IconColor = Color(0XFFADA4A5);
+const shadowColor = Color(0XFF95ADFE);
 
 const TextStyle Costumetitle = TextStyle(
   fontFamily: 'Poppins',

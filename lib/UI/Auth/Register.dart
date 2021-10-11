@@ -4,7 +4,12 @@ import 'package:fitnes_app/UI/Auth/Profile.dart';
 import 'package:flutter/material.dart';
 import '../../Constant.dart';
 
-class RegisterPage extends StatelessWidget {
+class RegisterPage extends StatefulWidget {
+  @override
+  _RegisterPageState createState() => _RegisterPageState();
+}
+
+class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
